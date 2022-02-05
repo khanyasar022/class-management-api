@@ -1,4 +1,4 @@
-const mogoose = require("mongoose")
+const mogoose = require('mongoose')
 mogoose
   .connect(process.env.DATABASE)
   .then(() => {
